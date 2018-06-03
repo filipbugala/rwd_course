@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-cli',
+1 verbose cli   '-g' ]
+2 info using npm@5.6.0
+3 info using node@v8.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData gulp-cli
+8 silly fetchNamedPackageData gulp-cli
+9 silly mapToRegistry name gulp-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'gulp-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'gulp-cli',
+12 silly mapToRegistry   name: 'gulp-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/gulp-cli
+14 verbose request uri https://registry.npmjs.org/gulp-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:07:46
+17 verbose request id 8699fc9bce167927
+18 verbose etag W/"efbb70d736d9932650ef1321cbe70c82"
+19 verbose lastModified Sat, 26 May 2018 11:01:41 GMT
+20 http request GET https://registry.npmjs.org/gulp-cli
+21 http 304 https://registry.npmjs.org/gulp-cli
+22 verbose headers { date: 'Sun, 03 Jun 2018 08:07:42 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie':
+22 verbose headers    [ '__cfduid=d11c112d40a4b0f2e4c141cb636b39a8e1528013262; expires=Mon, 03-Jun-19 08:07:42 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cf-ray': '4250aaebece9b859-WAW',
+22 verbose headers   etag: '"efbb70d736d9932650ef1321cbe70c82"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Sat, 26 May 2018 11:01:41 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 03 Jun 2018 08:07:42 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie':
+23 silly get      [ '__cfduid=d11c112d40a4b0f2e4c141cb636b39a8e1528013262; expires=Mon, 03-Jun-19 08:07:42 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cf-ray': '4250aaebece9b859-WAW',
+23 silly get     etag: '"efbb70d736d9932650ef1321cbe70c82"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Sat, 26 May 2018 11:01:41 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/gulp-cli from cache
+25 verbose get saving gulp-cli to C:\Users\Filip\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-cli\.cache.json
+26 verbose correctMkdir C:\Users\Filip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule gulp-cli@2.0.1 checking installable status
+40 silly cache add args [ 'gulp-cli', null ]
+41 verbose cache add spec gulp-cli
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'gulp-cli',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'gulp-cli',
+42 silly cache add   name: 'gulp-cli',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed gulp-cli@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for gulp-cli
+45 info addNameTag [ 'gulp-cli', 'latest' ]
+46 silly mapToRegistry name gulp-cli
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'gulp-cli',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'gulp-cli',
+49 silly mapToRegistry   name: 'gulp-cli',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/gulp-cli
+51 verbose addNameTag registry:https://registry.npmjs.org/gulp-cli not in flight; fetching
+52 verbose get https://registry.npmjs.org/gulp-cli not expired, no request
+53 silly addNameTag next cb for gulp-cli with tag latest
+54 silly addNamed gulp-cli@2.0.1
+55 verbose addNamed "2.0.1" is a plain semver version for gulp-cli
+56 silly cache afterAdd gulp-cli@2.0.1
+57 verbose afterAdd C:\Users\Filip\AppData\Roaming\npm-cache\gulp-cli\2.0.1\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\Filip\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\Filip\AppData\Roaming\npm-cache\gulp-cli\2.0.1\package\package.json written
+60 verbose stack TypeError: Class constructor  cannot be invoked without 'new'
+60 verbose stack     at doUntar (C:\Users\Filip\AppData\Roaming\nvm\v6.10.0\node_modules\npm\lib\fetch-package-metadata.js:343:33)
+60 verbose stack     at doGunzip (C:\Users\Filip\AppData\Roaming\nvm\v6.10.0\node_modules\npm\lib\fetch-package-metadata.js:339:5)
+60 verbose stack     at ReadStream.OD (C:\Users\Filip\AppData\Roaming\nvm\v6.10.0\node_modules\npm\lib\fetch-package-metadata.js:315:7)
+60 verbose stack     at emitOne (events.js:116:13)
+60 verbose stack     at ReadStream.emit (events.js:211:7)
+60 verbose stack     at addChunk (_stream_readable.js:263:12)
+60 verbose stack     at readableAddChunk (_stream_readable.js:250:11)
+60 verbose stack     at ReadStream.Readable.push (_stream_readable.js:208:10)
+60 verbose stack     at fs.read (fs.js:2058:12)
+60 verbose stack     at callback (C:\Users\Filip\AppData\Roaming\nvm\v6.10.0\node_modules\npm\node_modules\graceful-fs\polyfills.js:108:19)
+61 verbose cwd C:\rwd
+62 error Windows_NT 10.0.17134
+63 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-cli" "-g"
+64 error node v8.11.2
+65 error npm  v5.6.0
+66 error Class constructor  cannot be invoked without 'new'
+67 error If you need help, you may report this error at:
+67 error     <https://github.com/npm/npm/issues>
+68 verbose exit [ 1, true ]
